@@ -1,0 +1,91 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A10000000000000000000001 /* FirebaseTodoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000001 /* FirebaseTodoApp.swift */; };
+		A10000000000000000000002 /* TodoTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000002 /* TodoTask.swift */; };
+		A10000000000000000000003 /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000003 /* AuthViewModel.swift */; };
+		A10000000000000000000004 /* TaskViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000004 /* TaskViewModel.swift */; };
+		A10000000000000000000005 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000005 /* RootView.swift */; };
+		A10000000000000000000006 /* AuthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000006 /* AuthView.swift */; };
+		A10000000000000000000007 /* TaskListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000007 /* TaskListView.swift */; };
+		A10000000000000000000008 /* TaskFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000008 /* TaskFormView.swift */; };
+		A10000000000000000000009 /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = A90000000000000000000001 /* FirebaseCore */; };
+		A1000000000000000000000A /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = A90000000000000000000002 /* FirebaseAuth */; };
+		A1000000000000000000000B /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = A90000000000000000000003 /* FirebaseFirestore */; };
+		A1000000000000000000000C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A2000000000000000000000C /* GoogleService-Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A20000000000000000000001 /* FirebaseTodoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseTodoApp.swift; sourceTree = "<group>"; };
+		A20000000000000000000002 /* TodoTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoTask.swift; sourceTree = "<group>"; };
+		A20000000000000000000003 /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
+		A20000000000000000000004 /* TaskViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskViewModel.swift; sourceTree = "<group>"; };
+		A20000000000000000000005 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		A20000000000000000000006 /* AuthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthView.swift; sourceTree = "<group>"; };
+		A20000000000000000000007 /* TaskListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskListView.swift; sourceTree = "<group>"; };
+		A20000000000000000000008 /* TaskFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskFormView.swift; sourceTree = "<group>"; };
+		A20000000000000000000009 /* FirebaseTodo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirebaseTodo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2000000000000000000000A /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		A2000000000000000000000B /* firestore.rules */ = {isa = PBXFileReference; lastKnownFileType = text; path = firestore.rules; sourceTree = "<group>"; };
+		A2000000000000000000000C /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A30000000000000000000001 /* Frameworks */ = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (A10000000000000000000009 /* FirebaseCore in Frameworks */, A1000000000000000000000A /* FirebaseAuth in Frameworks */, A1000000000000000000000B /* FirebaseFirestore in Frameworks */); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A40000000000000000000001 = {isa = PBXGroup; children = (A40000000000000000000002 /* FirebaseTodo */, A2000000000000000000000A /* README.md */, A2000000000000000000000B /* firestore.rules */, A40000000000000000000006 /* Products */); sourceTree = "<group>"; };
+		A40000000000000000000002 /* FirebaseTodo */ = {isa = PBXGroup; children = (A20000000000000000000001 /* FirebaseTodoApp.swift */, A2000000000000000000000C /* GoogleService-Info.plist */, A40000000000000000000003 /* Models */, A40000000000000000000004 /* ViewModels */, A40000000000000000000005 /* Views */); path = FirebaseTodo; sourceTree = "<group>"; };
+		A40000000000000000000003 /* Models */ = {isa = PBXGroup; children = (A20000000000000000000002 /* TodoTask.swift */); path = Models; sourceTree = "<group>"; };
+		A40000000000000000000004 /* ViewModels */ = {isa = PBXGroup; children = (A20000000000000000000003 /* AuthViewModel.swift */, A20000000000000000000004 /* TaskViewModel.swift */); path = ViewModels; sourceTree = "<group>"; };
+		A40000000000000000000005 /* Views */ = {isa = PBXGroup; children = (A20000000000000000000005 /* RootView.swift */, A20000000000000000000006 /* AuthView.swift */, A20000000000000000000007 /* TaskListView.swift */, A20000000000000000000008 /* TaskFormView.swift */); path = Views; sourceTree = "<group>"; };
+		A40000000000000000000006 /* Products */ = {isa = PBXGroup; children = (A20000000000000000000009 /* FirebaseTodo.app */); name = Products; sourceTree = "<group>"; };
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A50000000000000000000001 /* FirebaseTodo */ = {isa = PBXNativeTarget; buildConfigurationList = A70000000000000000000002 /* Build configuration list for PBXNativeTarget "FirebaseTodo" */; buildPhases = (A30000000000000000000002 /* Sources */, A30000000000000000000001 /* Frameworks */, A30000000000000000000003 /* Resources */); buildRules = (); dependencies = (); name = FirebaseTodo; packageProductDependencies = (A90000000000000000000001 /* FirebaseCore */, A90000000000000000000002 /* FirebaseAuth */, A90000000000000000000003 /* FirebaseFirestore */); productName = FirebaseTodo; productReference = A20000000000000000000009 /* FirebaseTodo.app */; productType = "com.apple.product-type.application"; };
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A60000000000000000000001 /* Project object */ = {isa = PBXProject; attributes = {BuildIndependentTargetsInParallel = 1; LastUpgradeCheck = 1500; TargetAttributes = {A50000000000000000000001 = {CreatedOnToolsVersion = 15.0; }; }; }; buildConfigurationList = A70000000000000000000001 /* Build configuration list for PBXProject "FirebaseTodo" */; compatibilityVersion = "Xcode 14.0"; developmentRegion = en; hasScannedForEncodings = 0; knownRegions = (en, Base); mainGroup = A40000000000000000000001; packageReferences = (A80000000000000000000001 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */); productRefGroup = A40000000000000000000006 /* Products */; projectDirPath = ""; projectRoot = ""; targets = (A50000000000000000000001 /* FirebaseTodo */); };
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A30000000000000000000003 /* Resources */ = {isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (A1000000000000000000000C /* GoogleService-Info.plist in Resources */); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A30000000000000000000002 /* Sources */ = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (A10000000000000000000001 /* FirebaseTodoApp.swift in Sources */, A10000000000000000000002 /* TodoTask.swift in Sources */, A10000000000000000000003 /* AuthViewModel.swift in Sources */, A10000000000000000000004 /* TaskViewModel.swift in Sources */, A10000000000000000000005 /* RootView.swift in Sources */, A10000000000000000000006 /* AuthView.swift in Sources */, A10000000000000000000007 /* TaskListView.swift in Sources */, A10000000000000000000008 /* TaskFormView.swift in Sources */); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A70000000000000000000003 /* Debug */ = {isa = XCBuildConfiguration; buildSettings = {ALWAYS_SEARCH_USER_PATHS = NO; CLANG_ENABLE_MODULES = YES; CLANG_ENABLE_OBJC_ARC = YES; COPY_PHASE_STRIP = NO; DEBUG_INFORMATION_FORMAT = dwarf; ENABLE_TESTABILITY = YES; GCC_C_LANGUAGE_STANDARD = gnu11; GCC_OPTIMIZATION_LEVEL = 0; GCC_PREPROCESSOR_DEFINITIONS = ("DEBUG=1", "$(inherited)"); IPHONEOS_DEPLOYMENT_TARGET = 16.0; MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE; ONLY_ACTIVE_ARCH = YES; SDKROOT = iphoneos; SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG; SWIFT_OPTIMIZATION_LEVEL = "-Onone"; }; name = Debug; };
+		A70000000000000000000004 /* Release */ = {isa = XCBuildConfiguration; buildSettings = {ALWAYS_SEARCH_USER_PATHS = NO; CLANG_ENABLE_MODULES = YES; CLANG_ENABLE_OBJC_ARC = YES; COPY_PHASE_STRIP = YES; DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym"; GCC_C_LANGUAGE_STANDARD = gnu11; IPHONEOS_DEPLOYMENT_TARGET = 16.0; MTL_ENABLE_DEBUG_INFO = NO; SDKROOT = iphoneos; SWIFT_COMPILATION_MODE = wholemodule; SWIFT_OPTIMIZATION_LEVEL = "-O"; }; name = Release; };
+		A70000000000000000000005 /* Debug */ = {isa = XCBuildConfiguration; buildSettings = {CODE_SIGN_STYLE = Automatic; CURRENT_PROJECT_VERSION = 1; GENERATE_INFOPLIST_FILE = YES; INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES; INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES; INFOPLIST_KEY_UILaunchScreen_Generation = YES; IPHONEOS_DEPLOYMENT_TARGET = 16.0; MARKETING_VERSION = 1.0; OTHER_LDFLAGS = ("$(inherited)", "-ObjC"); PRODUCT_BUNDLE_IDENTIFIER = com.example.FirebaseTodo; PRODUCT_NAME = "$(TARGET_NAME)"; SWIFT_EMIT_LOC_STRINGS = YES; SWIFT_VERSION = 5.0; TARGETED_DEVICE_FAMILY = "1,2"; }; name = Debug; };
+		A70000000000000000000006 /* Release */ = {isa = XCBuildConfiguration; buildSettings = {CODE_SIGN_STYLE = Automatic; CURRENT_PROJECT_VERSION = 1; GENERATE_INFOPLIST_FILE = YES; INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES; INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES; INFOPLIST_KEY_UILaunchScreen_Generation = YES; IPHONEOS_DEPLOYMENT_TARGET = 16.0; MARKETING_VERSION = 1.0; OTHER_LDFLAGS = ("$(inherited)", "-ObjC"); PRODUCT_BUNDLE_IDENTIFIER = com.example.FirebaseTodo; PRODUCT_NAME = "$(TARGET_NAME)"; SWIFT_EMIT_LOC_STRINGS = YES; SWIFT_VERSION = 5.0; TARGETED_DEVICE_FAMILY = "1,2"; }; name = Release; };
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A70000000000000000000001 /* Build configuration list for PBXProject "FirebaseTodo" */ = {isa = XCConfigurationList; buildConfigurations = (A70000000000000000000003 /* Debug */, A70000000000000000000004 /* Release */); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+		A70000000000000000000002 /* Build configuration list for PBXNativeTarget "FirebaseTodo" */ = {isa = XCConfigurationList; buildConfigurations = (A70000000000000000000005 /* Debug */, A70000000000000000000006 /* Release */); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A80000000000000000000001 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {isa = XCRemoteSwiftPackageReference; repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git"; requirement = {kind = upToNextMajorVersion; minimumVersion = 13.1.1; }; };
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A90000000000000000000001 /* FirebaseCore */ = {isa = XCSwiftPackageProductDependency; package = A80000000000000000000001 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */; productName = FirebaseCore; };
+		A90000000000000000000002 /* FirebaseAuth */ = {isa = XCSwiftPackageProductDependency; package = A80000000000000000000001 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */; productName = FirebaseAuth; };
+		A90000000000000000000003 /* FirebaseFirestore */ = {isa = XCSwiftPackageProductDependency; package = A80000000000000000000001 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */; productName = FirebaseFirestore; };
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = A60000000000000000000001 /* Project object */;
+}
